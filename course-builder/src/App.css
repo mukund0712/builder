@@ -1,0 +1,150 @@
+/* App container */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Increase the max-width for larger sections */
+  margin: 0 auto;
+  
+}
+
+/* Header styles */
+.course-builder-header {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5ddecd3;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px; /* Adjust the margin here */
+  border: 3px solid #0808089d; /* Add border */
+}
+
+
+.course-builder-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Add button and menu styles */
+.add-menu {
+  position: relative;
+}
+
+.add-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.add-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  z-index: 1;
+}
+
+.add-dropdown button {
+  display: block;
+  width: 90%; /* Adjusted width to fit dropdown */
+  padding: 10px;
+  border: none;
+  background: black;
+  cursor: pointer;
+  text-align: center;
+  color: white; /* Ensure text is visible on black background */
+}
+
+.add-dropdown button:hover {
+  background-color: #f31717;
+}
+
+/* Modules container */
+.modules-container {
+  padding: 20px;
+  width: 100%;
+}
+
+/* Lottie animation container */
+.lottie-animation-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 10px  auto; /* Space between the header and submit button */
+}
+
+/* Empty state styles */
+.empty-state {
+  text-align: center;
+  color: #777;
+}
+
+.empty-state img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Module styles */
+.module {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Resource styles */
+.resource {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+/* Empty message for resources */
+.empty-message {
+  text-align: center;
+  color: #aaa;
+  margin: 20px 0;
+}
+
+/* Submit button container */
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.module-actions button {
+  margin-right: 10px;
+}

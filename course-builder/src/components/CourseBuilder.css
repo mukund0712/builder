@@ -1,0 +1,40 @@
+.modules-container {
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Prevent horizontal movement */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .module {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .resource-list {
+    margin-top: 10px;
+  }
+  
+  .resource {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    background-color: #fff;
+  }
+  .module .resources {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    min-height: 50px; /* Ensure a minimum height for empty droppable areas */
+  }
+  
+  .module .empty-message {
+    text-align: center;
+    color: #999;
+  }
+  

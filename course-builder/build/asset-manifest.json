@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/toodleapppproject/static/css/main.ffad5fa8.css",
+    "main.js": "/toodleapppproject/static/js/main.1de84378.js",
+    "index.html": "/toodleapppproject/index.html",
+    "main.ffad5fa8.css.map": "/toodleapppproject/static/css/main.ffad5fa8.css.map",
+    "main.1de84378.js.map": "/toodleapppproject/static/js/main.1de84378.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffad5fa8.css",
+    "static/js/main.1de84378.js"
+  ]
+}
